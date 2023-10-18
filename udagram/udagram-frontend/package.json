@@ -8,6 +8,7 @@
     "start": "ng serve",
     "build": "ng build",
     "deploy": "npm install -f && npm run build && chmod +x bin/deploy.sh && bin/deploy.sh",
+    "s3Endpoint": "https://s3.amazonaws.com",
     "test": "ng test --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
